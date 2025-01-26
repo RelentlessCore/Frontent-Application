@@ -1,14 +1,11 @@
-import DigitalClock from './DigitalClock.jsx'
+import Stopwatch from "./Stopwatch.jsx";
 
 function App() {
+    
     return (<>
-    <DigitalClock />
-    <DigitalClock />
-    <DigitalClock />
-    <DigitalClock />
+    <Stopwatch/>
+    <Stopwatch/>
+    <Stopwatch/>
     </>)
 }
-
-export default App  
-
-// 4:00:08
+export default App;
